@@ -1,8 +1,18 @@
-.jumbotron {
+.remove-all-margin-padding{
+    margin:0 ! important;
+    padding-left:0 ! important;
+    padding-right:0 ! important;
+}
+
+.jumbotron-fluid {
+    background: #007EA7;
     text-align: center;
-    background: white;
+    color: #CCDBDC;   
 }
   
 .navbar .navbar-collapse {
     text-align: center;
+    color: #CCDBDC;
+    width: auto;
+    justify-content: center;
 }
