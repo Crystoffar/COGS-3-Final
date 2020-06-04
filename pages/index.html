@@ -12,40 +12,87 @@
     <title>Chrysanthemum Testing</title>
 </head>
 <body>
-    <div class="container-fluid">
-    <div class="jumbotron">
-        <h1>COVID-19</h1>
-        <p>Dealing with a New Normal</p>
+    <div class="container-fluid remove-all-margin-padding">
+      <div class="jumbotron-fluid remove-all-margin-padding">
+        <div class="">
+          <h1>COVID-19</h1>
+          <p>Dealing with a New Normal</p>
+        <div>
+        <nav class="row navbar navbar-expand-sm bg-dark navbar-dark">
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar links -->
+          <!-- TODO: MAKE BETTER BUTTON TITLES-->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav align-items">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="communication.html">Communication</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipes.html">Quarantine Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <!-- Navbar links -->
-            <!-- TODO: MAKE BETTER BUTTON TITLES-->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="communication.html">Communication</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="recipes.html">Quarantine Recipes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="hobbies.html">Hobbies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                  </li>
-              </ul>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <!-- TODO: Implement Real Photos-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/inosuke1.png" alt="Los Angeles">
+            <div class="carousel-caption">
+              <h3>Inosuke</h3>
+              <p>An irritated Inosuke!</p>
             </div>
-          </nav>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/inosuke2.jpg" alt="Chicago">
+            <div class="carousel-caption">
+              <h3>Inosuke</h3>
+              <p>A minimalist Inosuke!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/inosuke3.jpg" alt="New York">
+            <div class="carousel-caption">
+              <h3>Inosuke</h3>
+              <p>A serious Inosuke!</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
     </div>
-    </div>
+
 </body>
 </html>
