@@ -7,11 +7,18 @@
 .jumbotron-fluid {
     background: #007EA7;
     text-align: center;
-    color: #CCDBDC;   
 }
-  
+
+#jumbo {
+    padding: 4%;
+    color: #CCDBDC;
+}
+
+.navbar-custom {
+    background-color: #003249;
+}
+
 .navbar .navbar-collapse {
-    text-align: center;
     color: #CCDBDC;
     width: auto;
     justify-content: center;
