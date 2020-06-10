@@ -1,0 +1,6 @@
+-Image Carousel on Home
+-Intro Paragraph
+-Navbar
+-Communication
+-Origami part of Hobbies
+-My Part of About Us
