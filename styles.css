@@ -3,6 +3,11 @@
     padding-left:0 ! important;
     padding-right:0 ! important;
     background: #CCDBDC;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1, h2, h3 {
+    font-family: "Lucida Console", Courier, monospace;
 }
 
 .jumbotron-fluid {
@@ -44,3 +49,22 @@
 .carousel-control-next-icon {
     margin-left: 60%;
   }
+
+#logo {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+
+#ui {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#drawing {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
